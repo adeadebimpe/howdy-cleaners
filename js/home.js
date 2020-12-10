@@ -1,14 +1,16 @@
 let toggle = () =>{
     let toggleBar = document.querySelector('.toggle-menu')
-    let sideBar = document.querySelector('.nav-menu')
-    let contianer = document.querySelector('.header')
+    let sideBar = document.querySelector('.nav')
 
-    
     toggleBar.addEventListener('click', ()=>{
-        contianer.classList.toggle('active')
-        sideBar.classList.toggle('active')
+        toggleBar.classList.toggle('active');
+        sideBar.classList.toggle('active');
     })
 }
+
+
+
+
 toggle();
 let setContact = () =>{
     let contactBtn = document.querySelector('.contact-btn')
